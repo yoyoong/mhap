@@ -52,6 +52,7 @@ import susScr11 from "./susScr11/susScr11";
 import susScr3 from "./susScr3/susScr3";
 import oviAri4 from "./oviAri4/oviAri4";
 import CHMV2 from "./t2t-chm13-v2.0/chm13v2";
+import hongyuyang from "./hongyuyang/hongyuyang";
 
 /**
  * All available genomes.
@@ -111,6 +112,7 @@ export const allGenomes = [
     rheMac10,
     RN7,
     CHMV2,
+    hongyuyang,
 ];
 
 const genomeNameToConfig = {};
@@ -284,6 +286,11 @@ export const treeOfLife: { [speciesName: string]: SpeciesConfig } = {
     trypanosome: {
         logoUrl: "https://vizhub.wustl.edu/public/trypanosome/trypanosome.png",
         assemblies: [TbruceiTREU927.genome.getName(), TbruceiLister427.genome.getName()],
+        color: "blue",
+    },
+    hongyuyang: {
+        logoUrl: "http://epigenomegateway.wustl.edu/browser/images/tw.png",
+        assemblies: [hongyuyang.genome.getName()],
         color: "blue",
     },
 };

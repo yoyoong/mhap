@@ -1,0 +1,45 @@
+{
+    "Ruler": [
+        {
+            "type": "ruler",
+            "label": "Ruler",
+            "name": "Ruler"
+        }
+    ],
+    "Genes": [
+        {
+            "name": "hongyuyang",
+            "label": "hongyuyang",
+            "filetype": "geneAnnotation"
+        }
+    ],
+    "RepeatMasker": {
+        "All Repeats": [
+            {
+                "name": "rmsk_all",
+                "label": "RepeatMasker",
+                "filetype": "repeatmasker",
+                "url": "https://vizhub.wustl.edu/public/gorGor3/gorGor3_rmsk.bb",
+                "height": 30
+            }
+        ]
+    },
+    "Genome Annotation": [
+        {
+            "name": "273_treat",
+            "label": "273_treat",
+            "filetype": "bigwig",
+            "url": "https://egg.wustl.edu/d/mm10/gc5Base.bigWig",
+            "height": 30,
+            "options": {
+                "color": "#4785C2",
+                "color2": "#4747C2",
+                "yScale": "fixed",
+                "yMin": 0,
+                "yMax": 100
+            }
+        }
+    ]
+
+    
+}
