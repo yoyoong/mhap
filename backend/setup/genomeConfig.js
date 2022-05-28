@@ -437,6 +437,19 @@ const rn7 = [
     },
 ];
 
+const hongyuyang = [
+    {
+        name: "273_treat",
+        file: "273_treat.bigWig",
+        fieldsConfig: geneFieldsAndIndex,
+    },
+    {
+        name: "hongyuyang",
+        file: "hongyuyang_load",
+        fieldsConfig: geneFieldsAndIndex,
+    },
+];
+
 const genomeConfig = {
     hg19,
     mm10,
@@ -475,6 +488,7 @@ const genomeConfig = {
     rheMac10,
     calJac4,
     rn7,
+    hongyuyang,
 };
 
 module.exports = genomeConfig;

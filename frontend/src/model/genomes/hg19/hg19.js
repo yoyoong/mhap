@@ -39,11 +39,11 @@ const defaultTracks = [
         type: "ruler",
         name: "Ruler",
     }),
-    // new TrackModel({
-    //     type: "bigwig",
-    //     name: "test bigwig",
-    //     url: "https://vizhub.wustl.edu/hubSample/hg19/GSM429321.bigWig",
-    // }),
+    new TrackModel({
+        type: "bigwig",
+        name: "test bigwig",
+        url: "https://vizhub.wustl.edu/hubSample/hg19/GSM429321.bigWig",
+    }),
     new TrackModel({
         type: "geneAnnotation",
         name: "refGene",

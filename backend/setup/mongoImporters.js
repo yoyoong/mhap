@@ -3,8 +3,8 @@
 const child_process = require('child_process');
 const fs = require('fs');
 
-const isWin = process.platform === 'win32';
-const MONGO_IMPORT = isWin ? '"c:\\Program Files\\MongoDB\\Server\\3.6\\bin\\mongoimport.exe"' : 'mongoimport';
+const isWin = process.platform === 'win64';
+const MONGO_IMPORT = isWin ? '"D:\\mongodb\\mongoimport.exe"' : 'mongoimport';
 
 /**
  * An importer of data for MongoDB
