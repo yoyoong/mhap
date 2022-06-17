@@ -15,19 +15,24 @@ const defaultTracks = [
         name: "Ruler",
     }),
     new TrackModel({
+        type: "geneAnnotation",
+        name: "hongyuyang",
+        genome: "hongyuyang",
+    }),
+    new TrackModel({
         type: "bigwig",
-        name: "hyy",
+        name: "gc5Base",
         url: 'https://egg.wustl.edu/d/mm10/gc5Base.bigWig',
     }),
     new TrackModel({
         type: "bigwig",
         name: "test bigwig",
-        url: "file:///D/Git/mhap/backend/genomeData/hongyuyang/273_treat.bigWig",
+        url: "https://github.com/yoyoong/mhap/blob/main/SRX5724431_a.bw",
     }),
     new TrackModel({
-        type: 'repeatmasker',
-        name: 'RepeatMasker',
-        url: 'https://vizhub.wustl.edu/public/gorGor3/gorGor3_rmsk.bb',
+        type: 'bigwig',
+        name: '273_treat',
+        genome: "hongyuyang",
     })
 ];
 
